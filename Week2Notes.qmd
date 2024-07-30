@@ -1,0 +1,34 @@
+---
+title: "Week 2 Notes"
+author: "Ethan Riggins & Emma Li"
+format: pptx
+editor: visual
+---
+
+## More familiar with RMarkdown
+
+## Git/Github
+
+::: {style="font-size: 70%;"}
+-   Installed git/made a github account
+-   Configured git using the usethis pkg and user_git_config
+-   Used use_git() in project to create a repository
+-   Used gitcreds_set() and a github token to sync github and RStudio
+-   Synced this project to github
+-   Learned to push/pull code
+:::
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
